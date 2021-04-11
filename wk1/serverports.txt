@@ -1,0 +1,28 @@
+1.	A server port is a logical construct that identifies a specific process or a type fo network service. 
+	A port is identified for each transport protocol and address combination by a 16-bit unsigned number, 
+	which is know as the port number
+
+2.	A server port range is a range of port numbers that are used for certain things, specifically there are 3 of them which all span between 0 and 65535.
+	There are Well-Known ports, Registered ports, and Dynamic/Private ports.
+	Well-Known port numbers include all numbers from 0 - 1023 and are protected ports which allow only processes with appropriate privileges to open ports in this range.
+	Registered port numbers include all numbers from 1024 - 49151 and ports used by ordinary user processes, or programs used by ordinary users.
+	Dynamic port numbers include all numbers from 49152 - 65535 are not assigned, controlled or registered, and are primarily used for temporary or private ports.
+
+3.	All ports a between 1 and 16 bits long 
+	Well-Known ports are between 1 and 10 bits long.
+	Registered ports are between 11 and 16 bits long so long as the value is less than 49152.
+	Dynamic ports are always 16 bits long as long as the value is equal to or greater than 49152.
+
+4.	Ten common port numbers are:
+	-	25 which is used by SMTP (Simple Mail Transfer Protocol)
+	-	80 which is used by HTTP (Hyper Text Transfer Protocol) 
+	-	443 which is used by HTTPS (Secure Hyper Text Transfer Protocol)
+	-	20 and 21 which are used by FTP (File Transfer Protocol)
+	-	23 which is used by TELNET
+	-	143 which is used by IMAP (Internet Message Access Protocol)
+	-	3389 which is used by RDP (Remote Desktop Protocol)
+	-	22 which is used by SSH (Secure Shell)
+	-	53 which is used by DNS (Domain Name System)
+	-	67 and 68 which are used by DHCP (Dynamic Host Configuration Protocol)
+	-	110 which is used by POP3 (Post Office Protocol Version 3)
+	
