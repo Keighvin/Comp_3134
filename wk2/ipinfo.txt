@@ -1,0 +1,40 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# host stackoverflow.com
+stackoverflow.com has address 151.101.129.69
+stackoverflow.com has address 151.101.1.69
+stackoverflow.com has address 151.101.193.69
+stackoverflow.com has address 151.101.65.69
+stackoverflow.com mail is handled by 1 aspmx.l.google.com.
+stackoverflow.com mail is handled by 10 alt3.aspmx.l.google.com.
+stackoverflow.com mail is handled by 10 alt4.aspmx.l.google.com.
+stackoverflow.com mail is handled by 5 alt1.aspmx.l.google.com.
+stackoverflow.com mail is handled by 5 alt2.aspmx.l.google.com.
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# host georgebrown.ca
+georgebrown.ca has address 99.79.139.11
+georgebrown.ca mail is handled by 10 mx1.hc459-42.ca.iphmx.com.
+georgebrown.ca mail is handled by 20 mx2.hc459-42.ca.iphmx.com.
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# host steam.com
+steam.com has address 43.129.23.233
+steam.com mail is handled by 10 mx.zoho.com.cn.
+steam.com mail is handled by 20 mx2.zoho.com.cn.
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# host github.com
+github.com has address 140.82.112.3
+github.com mail is handled by 1 aspmx.l.google.com.
+github.com mail is handled by 10 alt3.aspmx.l.google.com.
+github.com mail is handled by 10 alt4.aspmx.l.google.com.
+github.com mail is handled by 5 alt1.aspmx.l.google.com.
+github.com mail is handled by 5 alt2.aspmx.l.google.com.
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# host discord.com
+discord.com has address 162.159.135.232
+discord.com has address 162.159.128.233
+discord.com has address 162.159.136.232
+discord.com has address 162.159.137.232
+discord.com has address 162.159.138.232
+discord.com mail is handled by 1 aspmx.l.google.com.
+discord.com mail is handled by 5 alt1.aspmx.l.google.com.
+discord.com mail is handled by 5 alt2.aspmx.l.google.com.
+discord.com mail is handled by 10 aspmx2.googlemail.com.
+discord.com mail is handled by 10 aspmx3.googlemail.com.

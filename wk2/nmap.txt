@@ -1,0 +1,51 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-11 22:44 UTC
+Nmap scan report for google.com (172.217.1.14)
+Host is up (0.0011s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:800::200e
+rDNS record for 172.217.1.14: yyz10s14-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.91 seconds
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1 www.discord.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-11 22:45 UTC
+Nmap scan report for www.discord.com (162.159.137.232)
+Host is up (0.0012s latency).
+Other addresses for www.discord.com (not scanned): 162.159.138.232 162.159.128.233 162.159.135.232 162.159.136.232
+
+PORT  STATE    SERVICE
+1/tcp filtered tcpmux
+
+Nmap done: 1 IP address (1 host up) scanned in 11.28 seconds
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1-1024 www.steam.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-11 22:46 UTC
+Nmap scan report for www.steam.com (43.129.23.233)
+Host is up (0.19s latency).
+Not shown: 1022 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 23.03 seconds
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F www.blackboard.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-11 22:48 UTC
+Nmap scan report for www.blackboard.com (104.17.95.235)
+Host is up (0.00099s latency).
+Other addresses for www.blackboard.com (not scanned): 104.17.96.235 2606:4700::6811:60eb 2606:4700::6811:5feb
+Not shown: 96 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 13.12 seconds
+
+
+
